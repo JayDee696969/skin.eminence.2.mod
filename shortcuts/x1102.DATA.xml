@@ -15,7 +15,7 @@
     <shortcut>
         <label2>Episode Hub Shortcut</label2>
         <label>31101</label>
-        <action>ActivateWindow(Videos,special://skin/extras/playlists/RecentlyPlayedEpisodes.xsp,return)</action>
+        <action>ActivateWindow(Videos,special://skin/extras/playlists/RecentEpisodes.xsp,return)</action>
         <icon>special://skin/extras/icons/recent.png</icon>
     </shortcut>
     <shortcut>

@@ -1653,14 +1653,14 @@
 					<control type="radiobutton" id="9106">
 						<width>100%</width>                        
 						<radioposx>1350</radioposx>
-						<label>service.upnext $INFO[System.AddonVersion(service.upnext),(,)]</label>
+						<label>service.nextup.notification $INFO[System.AddonVersion(service.nextup.notification),(,)]</label>
 						<textureradioonfocus colordiffuse="ff00991f">common/radio-on.png</textureradioonfocus>
 						<textureradioonnofocus colordiffuse="ff00991f">common/radio-on.png</textureradioonnofocus>
 						<textureradioofffocus colordiffuse="fff02222">common/status_off.png</textureradioofffocus>
 						<textureradiooffnofocus colordiffuse="fff02222">common/status_off.png</textureradiooffnofocus>
-						<onclick condition="!System.HasAddon(service.upnext)">RunPlugin(plugin://service.upnext)</onclick>
-						<onclick condition="System.HasAddon(service.upnext)">Addon.OpenSettings(service.upnext)</onclick>
-						<selected>System.HasAddon(service.upnext)</selected>
+						<onclick condition="!System.HasAddon(service.nextup.notification)">RunPlugin(plugin://service.nextup.notification)</onclick>
+						<onclick condition="System.HasAddon(service.nextup.notification)">Addon.OpenSettings(service.nextup.notification)</onclick>
+						<selected>System.HasAddon(service.nextup.notification)</selected>
 						<include>Defs_OptionButton</include>
 					</control>
 

@@ -229,7 +229,7 @@
 		<value condition="System.HasAddon(script.artwork.beef) + Skin.HasSetting(SkinHelperExtrafanart) + !String.IsEmpty(Control.Getlabel(4420)) + !Skin.HasSetting(global.fanart)">$INFO[Control.Getlabel(4420)]</value>        
 		<value condition="!System.HasAddon(script.artwork.beef) + Skin.HasSetting(SkinHelperExtrafanart) + !String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.Art.ExtraFanArt)) + !Skin.HasSetting(global.fanart)">$INFO[Window(Home).Property(SkinHelper.ListItem.Art.ExtraFanArt)]</value>
 		<value condition="!System.HasAddon(script.artwork.beef) + String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.Art.ExtraFanArt)) + !String.IsEmpty(Control.Getlabel(4430)) + Skin.HasSetting(SkinHelperExtrafanart) + !Skin.HasSetting(global.fanart)">$INFO[Control.Getlabel(4430)]</value>
-		<!-- <value condition="!System.HasAddon(script.artwork.beef) + String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.Art.ExtraFanArt)) + !String.IsEmpty(Control.Getlabel(4440)) + Skin.HasSetting(SkinHelperExtrafanart) + !Skin.HasSetting(global.fanart)">$INFO[Control.Getlabel(4440)]</value> -->
+		<value condition="!System.HasAddon(script.artwork.beef) + String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.Art.ExtraFanArt)) + !String.IsEmpty(Control.Getlabel(4440)) + Skin.HasSetting(SkinHelperExtrafanart) + !Skin.HasSetting(global.fanart)">$INFO[Control.Getlabel(4440)]</value>
 		<value condition="!String.IsEmpty(ListItem.Art(fanart)) + !Skin.HasSetting(global.fanart)">$INFO[ListItem.Art(fanart)]</value>
 		<value condition="!String.IsEmpty(Fanart.Image) + !Skin.HasSetting(global.fanart)">$INFO[Fanart.Image]</value>		
 		<value condition="!String.IsEmpty(Skin.String(fanartfallback.path))">$INFO[Skin.String(fanartfallback.path)]</value>

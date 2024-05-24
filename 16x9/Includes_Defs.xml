@@ -705,12 +705,6 @@
         <value condition="Window.IsVisible(1107) + !String.IsEmpty(Skin.String(Widget.1107.Type))">$INFO[Skin.String(Widget.1107.Type)]</value>
         <value condition="Window.IsVisible(1108) + !String.IsEmpty(Skin.String(Widget.1108.Type))">$INFO[Skin.String(Widget.1108.Type)]</value>
         <value condition="Window.IsVisible(1109) + !String.IsEmpty(Skin.String(Widget.1109.Type))">$INFO[Skin.String(Widget.1109.Type)]</value>
-		<value condition="Window.IsVisible(1109) + !String.IsEmpty(Skin.String(Widget.1110.Type))">$INFO[Skin.String(Widget.1110.Type)]</value>
-		<value condition="Window.IsVisible(1109) + !String.IsEmpty(Skin.String(Widget.1111.Type))">$INFO[Skin.String(Widget.1111.Type)]</value>
-		<value condition="Window.IsVisible(1109) + !String.IsEmpty(Skin.String(Widget.1112.Type))">$INFO[Skin.String(Widget.1112.Type)]</value>
-		<value condition="Window.IsVisible(1109) + !String.IsEmpty(Skin.String(Widget.1113.Type))">$INFO[Skin.String(Widget.1113.Type)]</value>
-		<value condition="Window.IsVisible(1109) + !String.IsEmpty(Skin.String(Widget.1114.Type))">$INFO[Skin.String(Widget.1114.Type)]</value>
-		<value condition="Window.IsVisible(1109) + !String.IsEmpty(Skin.String(Widget.1115.Type))">$INFO[Skin.String(Widget.1115.Type)]</value>		
         <value>videos</value>
     </variable>    
 	<variable name="Defs_HomeTileColor">

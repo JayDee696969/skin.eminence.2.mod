@@ -5,7 +5,6 @@
     <defaultcontrol>50</defaultcontrol>
 	<onload>ClearProperty(quicknavsetup,home)</onload>
 	<onunload>ClearProperty(quicknavsetup,home)</onunload>	
-	<views>50</views>
 
     <controls>
         <include>Furniture_Background</include>

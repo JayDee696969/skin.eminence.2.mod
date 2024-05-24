@@ -1195,7 +1195,7 @@ msgid "Back to Fullscreen"
 msgstr ""
 
 msgctxt "#31527"
-msgid "Show ClearArt with the UpNext Service add-on"
+msgid "Show ClearArt with the NextUp Notification add-on"
 msgstr ""
 
 msgctxt "#31528"
@@ -1379,7 +1379,7 @@ msgid "Shows ClearArt along with the info panel."
 msgstr ""
 
 msgctxt "#31573"
-msgid "Shows TV Shows ClearArt with the [B]UpNext Service[/B] add-on."
+msgid "Shows TV Shows ClearArt with the [B]NextUp Notification[/B] add-on."
 msgstr ""
 
 msgctxt "#31574"
@@ -1551,7 +1551,7 @@ msgid "[B]Global Search[/B] add-on is needed to search content in library."
 msgstr ""
 
 msgctxt "#31616"
-msgid "[B]UpNext Service[/B] add-on is needed to popup a notification at a specified time period before the end to allow quicker play of the next item or to cancel the next episode playing automatically."
+msgid "[B]Nextup Service Notification[/B] add-on is needed to popup a notification at a specified time period before the end to allow quicker play of the next item or to cancel the next episode playing automatically."
 msgstr ""
 
 msgctxt "#31617"

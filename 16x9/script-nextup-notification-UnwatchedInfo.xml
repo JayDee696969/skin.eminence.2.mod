@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<zorder>0</zorder>
+	<controls>
+		<control type="group">
+			<right>10</right>
+			<bottom>160</bottom>
+			<width>600</width>
+			<height>339</height>
+			<control type="group">
+				<control type="image">
+					<animation effect="fade" start="100" end="97" time="200" condition="true">Conditional</animation>
+					<texture border="5" colordiffuse="DialogBG">common/nextupbox.png</texture>
+				</control>
+				<control type="group">
+					<left>5</left>
+					<right>5</right>
+					<control type="image" id="5004">
+						<width>100%</width>
+						<height>210</height>
+						<aspectratio align="center" aligny="bottom">keep</aspectratio>
+					</control>
+					<control type="label" description="Title" id="5000">
+						<width>100%</width>
+						<left>267</left>
+						<top>0</top>
+						<height>40</height>
+						<font>NextUpTitle</font>
+						<textcolor>LineLabel</textcolor>
+						<visible>false</visible>
+					</control>
+					<control type="label" description="episode/season" id="5002">
+						<width>100%</width>
+						<left>267</left>
+						<top>0</top>
+						<height>40</height>
+						<font>NextUpTitle</font>
+						<textcolor>LineLabel</textcolor>
+						<visible>false</visible>
+					</control>
+					<control type="label" id="5003" description="rating">
+						<left>35</left>
+						<width>100%</width>
+						<top>50</top>
+						<height>40</height>
+						<font>NextUpRemaining</font>
+						<textcolor>LineLabel</textcolor>
+						<visible>false</visible>
+					</control>
+					<control type="textbox" description="Plot" id="5001">
+						<align>left</align>
+						<left>5</left>
+						<right>5</right>
+						<width>100%</width>
+						<top>215</top>
+						<height>118</height>
+						<font>NextUpPlot</font>
+						<textcolor>LineLabel</textcolor>
+					</control>
+				</control>
+			</control>
+		</control>
+	</controls>
+</window>

@@ -488,7 +488,7 @@
 			<control type="image">
 				<width>100%</width>
 				<height>100%</height>
-				<aspectratio>scale</aspectratio>
+				<aspectratio>keep</aspectratio>
 				<texture background="true" fallback="special://skin/extras/backgrounds/home.jpg">$VAR[Image_HubBackground]</texture>
 			</control>
 		</itemlayout>
@@ -496,7 +496,7 @@
 			<control type="image">
 				<width>100%</width>
 				<height>100%</height>
-				<aspectratio>scale</aspectratio>
+				<aspectratio>keep</aspectratio>
 				<texture background="true" fallback="special://skin/extras/backgrounds/home.jpg">$VAR[Image_HubBackground]</texture>
 			</control>
 		</focusedlayout>	
@@ -1704,68 +1704,8 @@
     </include>    
     <!-- OSD Controls -->
     <include name="Window_OSD_Left_Music">  
-    
+
         <control type="button" id="1">
-            <description>Repeat</description>
-            <width>48</width>
-            <height>48</height>
-            <font>noop</font>
-            <onclick>XBMC.PlayerControl(Repeat)</onclick>
-            <include>Defs_OSDButton</include>
-            <texturefocus>noop</texturefocus>
-            <texturenofocus>noop</texturenofocus>
-			<hitrect x="0" y="0" w="48" h="48" />
-        </control>
-
-        <control type="group" id="501">
-            <width>48</width>
-            <height>48</height>
-            <control type="button" description="repeat-one">
-                <width>48</width>
-                <height>48</height>
-				<texturefocus colordiffuse="$VAR[HighlightColor]">osd/repeat-one.png</texturefocus>
-                <texturenofocus colordiffuse="LineLabel">osd/repeat-one.png</texturenofocus>				
-                <visible>Playlist.IsRepeatOne</visible>
-				<onclick>XBMC.PlayerControl(Repeat)</onclick>
-				<hitrect x="0" y="0" w="48" h="48" />
-            </control>
-            <control type="button" description="repeat-all">
-                <width>48</width>
-                <height>48</height>
-				<texturefocus colordiffuse="$VAR[HighlightColor]">osd/repeat-all.png</texturefocus>
-                <texturenofocus colordiffuse="LineLabel">osd/repeat-all.png</texturenofocus>
-                <visible>Playlist.IsRepeat</visible>
-				<onclick>XBMC.PlayerControl(Repeat)</onclick>
-				<hitrect x="0" y="0" w="48" h="48" />
-            </control>
-            <control type="button" description="repeat-off">
-                <width>48</width>
-                <height>48</height>
-				<texturefocus colordiffuse="$VAR[HighlightColor]">osd/repeat-off.png</texturefocus>
-                <texturenofocus colordiffuse="LineLabel">osd/repeat-off.png</texturenofocus>
-                <visible>!Playlist.IsRepeatOne + !Playlist.IsRepeat</visible>
-				<onclick>XBMC.PlayerControl(Repeat)</onclick>
-				<hitrect x="0" y="0" w="48" h="48" />
-            </control>
-            <control type="image" description="repeat-check-fo">
-                <top>32</top>
-                <left>46</left>
-                <width>16</width>
-                <height>16</height>
-                <texture colordiffuse="$VAR[HighlightColor]">osd/minicheck.png</texture>
-                <visible>[Playlist.IsRepeat | Playlist.IsRepeatOne] + ControlGroup(501).HasFocus()</visible>
-            </control>
-            <control type="image" description="repeat-check-nf">
-                <top>32</top>
-                <left>46</left>
-                <width>16</width>
-                <height>16</height>
-				<texture colordiffuse="LineLabel">osd/minicheck.png</texture>
-                <visible>[Playlist.IsRepeat | Playlist.IsRepeatOne] + !ControlGroup(501).HasFocus()</visible>
-            </control>			
-        </control>
-
-        <control type="button" id="2">
             <description>Random</description>
             <onclick>XBMC.PlayerControl(Random)</onclick>
             <width>48</width>
@@ -1777,7 +1717,7 @@
 			<hitrect x="0" y="0" w="48" h="48" />			
         </control>
         
-        <control type="button" id="3">
+        <control type="button" id="2">
             <description>Playlist</description>
             <width>48</width>
             <height>48</height>
@@ -1787,7 +1727,18 @@
             <onclick>Close</onclick>
             <onclick>ActivateWindow(MusicPlaylist)</onclick>
 			<hitrect x="0" y="0" w="48" h="48" />
-        </control>       
+        </control> 
+
+        <control type="button" id="3">
+            <description>Info</description>
+            <width>48</width>
+            <height>48</height>
+            <font>noop</font>
+            <texturefocus colordiffuse="$VAR[HighlightColor]">common/info.png</texturefocus>
+            <texturenofocus colordiffuse="LineLabel">common/info.png</texturenofocus>
+            <onclick>Info</onclick>
+			<hitrect x="0" y="0" w="48" h="48" />
+        </control>		
     </include>
     <include name="Window_OSD_Right_Music">
         <control type="button" id="4">
@@ -2125,7 +2076,7 @@
             </control>
             
             <control type="grouplist" id="103">        
-                <left>-122</left>
+                <left>122</left>
                 <bottom>8</bottom>
                 <height>48</height>                 
                 <width>795</width>               

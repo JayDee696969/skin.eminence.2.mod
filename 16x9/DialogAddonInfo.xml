@@ -242,6 +242,7 @@
                         <include>Defs_OptionButton2</include>
                         <visible>Control.IsEnabled(12)</visible>
                     </control>
+					
                     <!-- Configure Addon Button -->
                     <control type="button" id="9">                    
                         <width>auto</width>
@@ -249,7 +250,8 @@
                         <font>Font-ListInfo-Small-Bold</font>
                         <include>Defs_OptionButton2</include>
                         <visible>Control.IsEnabled(9)</visible>
-                    </control>                    
+                    </control> 					
+						
                     <!-- Update Addon Button -->
                     <control type="button" id="8">                    
                         <width>auto</width>
@@ -257,15 +259,15 @@
                         <font>Font-ListInfo-Small-Bold</font>
                         <include>Defs_OptionButton2</include>
                         <visible>Control.IsEnabled(8)</visible>
-                    </control>                  
-                    <!-- Auto-Update Button -->
-                    <control type="radiobutton" id="13">
-                        <width>380</width>
-                        <label>21340</label>
+                    </control> 
+                     <!-- Versions -->
+                    <control type="button" id="14">
+                        <width>auto</width>					
+                        <label>24069</label>
                         <font>Font-ListInfo-Small-Bold</font>
-                        <include>Defs_OptionRadioButton</include>
-                        <visible>Control.IsEnabled(13)</visible>
-                    </control>
+                        <include>Defs_OptionButton2</include>
+                        <visible>Control.IsEnabled(14)</visible>
+                    </control>						
                     <!-- Install/UnInstall Addon button -->
                     <control type="button" id="6">                
                         <width>auto</width>
@@ -274,14 +276,6 @@
                         <include>Defs_OptionButton2</include>
                         <visible>Control.IsEnabled(6)</visible>
                     </control>
-                    <!-- Enable/Disable Addon button -->
-                    <control type="button" id="7">               
-                        <width>auto</width>
-                        <label>24021</label>
-                        <font>Font-ListInfo-Small-Bold</font>
-                        <include>Defs_OptionButton2</include>
-                        <visible>Control.IsEnabled(7)</visible>
-                    </control>
                     <!-- Dependencies -->
                     <control type="button" id="10">                   
                         <width>auto</width>
@@ -289,7 +283,24 @@
                         <font>Font-ListInfo-Small-Bold</font>
                         <include>Defs_OptionButton2</include>
                         <visible>Control.IsEnabled(10)</visible>
+                    </control>
+                    <!-- Enable/Disable Addon button -->
+                    <control type="button" id="7">               
+                        <width>auto</width>
+                        <label>24021</label>
+                        <font>Font-ListInfo-Small-Bold</font>
+                        <include>Defs_OptionButton2</include>
+                        <visible>Control.IsEnabled(7)</visible>
                     </control>					
+                    <!-- Auto-Update Button -->
+                    <control type="radiobutton" id="13">
+                        <width>380</width>
+                        <label>21340</label>
+                        <font>Font-ListInfo-Small-Bold</font>
+                        <include>Defs_OptionRadioButton</include>
+                        <visible>Control.IsEnabled(13)</visible>
+                    </control>					
+					
                     <!-- New changelog button -->
                     <control type="button" id="910">                   
                         <width>auto</width>

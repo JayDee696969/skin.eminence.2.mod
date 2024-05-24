@@ -208,7 +208,7 @@
 						<label2>$LOCALIZE[31274][CR]$LOCALIZE[31275]</label2>
 						<onclick>activatewindow(eventlog)</onclick>
 						<icon>special://skin/extras/icons/year.png</icon>
-						<visible>!System.HasAddon(service.libreelec.settings) + !System.HasAddon(service.openelec.settings) + !System.HasAddon(service.coreelec.settings)</visible>
+						<visible>!System.HasAddon(service.libreelec.settings) + !System.HasAddon(service.openelec.settings)</visible>
 					</item>					
 					<item id="15">
 						<description>Launch OpenELEC settings</description>
@@ -225,14 +225,6 @@
 						<visible>System.HasAddon(service.libreelec.settings)</visible>
 						<icon>special://skin/extras/icons/libreelec.png</icon>
 					</item>
-					<item id="17">
-						<description>Launch CoreELEC settings</description>
-						<label>$ADDON[service.coreelec.settings 600]</label>
-						<label2>$ADDON[service.coreelec.settings 32002] • $ADDON[service.libreelec.settings 32101] • $ADDON[service.coreelec.settings 32001][CR]$ADDON[service.coreelec.settings 32100] • $ADDON[service.coreelec.settings 32331]</label2>
-						<onclick>RunScript(service.coreelec.settings)</onclick>
-						<visible>System.HasAddon(service.coreelec.settings)</visible>
-						<icon>special://skin/extras/icons/libreelec.png</icon>
-					</item>					
                 </content>
             </control>
         </control>

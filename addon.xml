@@ -1,69 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
     id="skin.eminence.2.mod"
-    version="3.0.4"
-    name="Eminence 2 MOD"
-    provider-name="jurialmunkey - Mod by Guilouz - Mod by Alanon - Mod by hawkeyexp">
+    version="421.3.0.4"
+    name="[B][COLOR gold]Eminence[/COLOR][/B]"
+    provider-name="Alanon">
     <requires>
-        <import addon="xbmc.gui" version="5.14.0"/>
-        <import addon="script.skinshortcuts" version="1.0.13"/>
-        <import addon="script.skin.helper.service" version="1.1.23"/>
-		<import addon="script.skin.helper.widgets" version="1.0.35"/>
-		<import addon="script.skin.helper.colorpicker" version="1.0.12"/>
-        <import addon="script.extendedinfo" version="5.0.0"/>
-        <import addon="script.image.resource.select" version="0.0.5"/>
-        <import addon="plugin.program.autocompletion" version="1.0.1"/>
+        <import addon="xbmc.gui" version="5.17.0"/>
+        <import addon="script.skinshortcuts" version="1.0.0" />
+        <import addon="plugin.video.themoviedb.helper" version="4.4.0" />
+        <import addon="script.image.resource.select" version="0.0.5" />
+        <import addon="resource.images.weatherfanart.single" version="0.0.6"/>		
     </requires>
     <extension point="xbmc.gui.skin" effectslowdown="1.00" debugging="false">
         <res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
     </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
-        <summary lang="en">Clean, clear, simple, modern.</summary>
-        <summary lang="fr">Clair, simple et moderne.</summary>
+        <summary lang="en">Eminence Omega</summary>
         <description lang="en">Eminence is a skin that aims to be clean, clear, simple and modern.</description>
         <description lang="fr">Eminence est un thème qui vise à être clair, simple et moderne.</description>
-	<description lang="es_ES">Eminence es un skin que pretende ser limpio, claro, sencillo y moderno.</description>
 		<assets>
 		 	<icon>icon.png</icon>
  			<fanart>fanart.jpg</fanart>
-			<screenshot>extras/viewthumbs/56.jpg</screenshot>
- 			<screenshot>extras/viewthumbs/521.jpg</screenshot>
- 			<screenshot>extras/viewthumbs/600.jpg</screenshot>
- 			<screenshot>extras/viewthumbs/506.jpg</screenshot>
- 			<screenshot>extras/viewthumbs/52.jpg</screenshot>
- 			<screenshot>extras/viewthumbs/159.jpg</screenshot>
 		</assets>	
-		<news> Changelog: 
-		
-		[B]3.0.4[/B]
-		1. Skin Shortcuts menu fix.
-		2. Minor widget fixes.
-		3. Dialog Busy tweak.
-		
-		[B]3.0.3[/B]
-		1. GUI bump.
-		2. Tweaked vertical menu layout and size.
-		3. Added addon dependency button.
-		4. Removed Audio DSP related settings.
-		5. Tweaked startup video.
-		6. Premiere date tweaks.
-		7. PVR Recordings fix.
-		
-		[B]3.0.2[/B]
-		1. Fixed weather animated icons.
-		2. Alphabet scrollbar fixes.
-		3. Reimplemented Netflix backend fonts.
-		
-		[B]3.0.1[/B]
-		1. Small infoline corrections.
-		2. Removed a redundant setting.
-		3. Bypass menu selection crash.
-		4. Replaced country flags.
-		5. Support for ExtendedInfo forks.		
-		
-		[B]3.0[/B]
-		1. First Leia version.
+		<news> 
 		</news>
 	</extension>
 </addon>

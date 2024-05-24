@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol always="true">4012</defaultcontrol>
+	<zorder>0</zorder>
+	<controls>
+	
+	 	<control type="image" description="clearart">
+      	  		<include>Animation_FadeIn</include>
+            		<include>Animation_FadeOut</include>
+       	  		<right>104</right>
+       	  		<bottom>374</bottom>
+            		<width>400</width>
+	  		<height>225</height>
+            		<aspectratio aligny="center">keep</aspectratio>
+	  		<texture>$VAR[PlayerClearArt]</texture>
+	  		<visible>Skin.HasSetting(videoosd.showclearartnextup)</visible>	
+        	</control>  
+        
+		<control type="group">
+			<include>Animation.FadeIn.Slide</include>
+           		<include>Animation.FadeOut</include>
+			<right>64</right>
+            		<bottom>64</bottom>
+            		<width>480</width>
+            		<height>270</height>
+			<control type="group">
+				<control type="image" description="blackline">
+                			<width>100%</width>
+                			<height>60</height>
+                			<bottom>250</bottom>
+                			<aspectratio scalediffuse="false">scale</aspectratio>
+                			<texture colordiffuse="DialogBG">common/nextuptop.png</texture>
+            			</control>            
+            			<control type="label" description="text">
+                			<top>-52</top>
+                			<left>5</left>
+                			<right>20</right>
+                			<height>64</height>
+                			<aligny>center</aligny>
+                			<font>NextUpTitle</font>
+                			<label>$ADDON[service.nextup.notification 30010]</label>
+                			<textcolor>LineLabel</textcolor>
+            			</control>
+				<control type="image" description="fanart">
+					<width>100%</width>
+					<height>100%</height>
+					<fadetime>350</fadetime>
+					<aspectratio scalediffuse="false">scale</aspectratio>
+					<texture>$INFO[Player.Art(fanart)]</texture>
+				</control>
+				<control type="image" description="blackline">
+                			<width>100%</width>
+                			<height>64</height>
+                			<bottom>0</bottom>
+                			<aspectratio scalediffuse="false">scale</aspectratio>
+                			<texture colordiffuse="DialogBG">common/nextupbottom.png</texture>
+            			</control>
+				<control type="image" description="blackline">
+                			<height>64</height>
+                			<width>64</width>
+                			<centertop>110</centertop>
+                			<centerleft>50%</centerleft>
+                			<aspectratio scalediffuse="false">keep</aspectratio>
+                			<texture colordiffuse="$VAR[HighlightColor]">common/circle.png</texture>
+            			</control>
+            			<control type="label">
+                			<description>Remaining</description>
+                			<centertop>110</centertop>
+                			<centerleft>50%</centerleft>
+                			<width>885</width>
+                			<font>NextUpRemaining</font>
+                			<align>center</align>
+                			<textcolor>Selected</textcolor>
+                			<label>$INFO[Player.TimeRemaining(ss)]</label>
+            			</control>
+				<control type="button" id="4012">
+                			<description>Play</description>
+                			<right>64</right>
+                			<bottom>8</bottom>
+                			<width>48</width>
+                			<height>48</height>
+                			<label></label>
+                			<align>center</align>
+                			<aligny>center</aligny>
+                			<textoffsetx>0</textoffsetx>
+                			<onleft>4013</onleft>
+                			<onright>4013</onright>
+                			<texturefocus colordiffuse="$VAR[HighlightColor]">common/nextupplay.png</texturefocus>
+                			<texturenofocus colordiffuse="LineLabel">common/nextupplay.png</texturenofocus>
+            			</control>
+            			<control type="button" id="4013">
+                			<description>Cancel</description>
+                			<right>8</right>
+                			<bottom>8</bottom>
+                			<width>48</width>
+                			<height>48</height>
+                			<label></label>
+                			<align>center</align>
+                			<aligny>center</aligny>
+                			<textoffsetx>0</textoffsetx>
+                			<onleft>4012</onleft>
+                			<onright>4012</onright>
+                			<texturefocus colordiffuse="$VAR[HighlightColor]">common/nextupstop.png</texturefocus>
+                			<texturenofocus colordiffuse="LineLabel">common/nextupstop.png</texturenofocus>
+            			</control>
+				<control type="group">
+					<left>5</left>
+                			<right>120</right>
+                			<height>64</height>
+                			<bottom>0</bottom>                					
+					<control type="label" id="4000">
+						<width>100%</width>
+						<top>0</top>
+						<height>64</height>
+						<aligny>center</aligny>
+						<font>NextUpTitle</font>
+						<textcolor>LineLabel</textcolor>
+						<scroll>yes</scroll>
+					</control>
+					<control type="label" description="episode/season info" id="4002">
+						<visible>false</visible>
+					</control>
+					<control type="label" description="Title" id="4000">
+						<visible>false</visible>
+					</control>
+					<control type="label" id="4003" description="rating">
+						<visible>false</visible>
+					</control>
+					<control type="label" id="4004" description="year/runtime">
+						<visible>false</visible>
+					</control>
+					<control type="textbox" id="4006" description="Plot">
+						<visible>false</visible>
+					</control>
+				</control>
+			</control>
+		</control>
+	</controls>
+</window>

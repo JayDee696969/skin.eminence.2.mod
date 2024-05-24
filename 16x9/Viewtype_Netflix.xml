@@ -46,7 +46,7 @@
 				<font>font_armyofdarkness</font>
 				<label>[B]$VAR[Label_OverlayTitle][/B]</label>
 				<visible allowhiddenfocus="true">Control.IsVisible(515)</visible>
-				<visible>[Container.Content(movies) | Container.Content(sets) + String.IsEmpty(ListItem.Art(clearlogo)) + String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.Art.Clearlogo))] | [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes) + String.IsEmpty(ListItem.Art(tvshow.clearlogo)) + String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.Art.Clearlogo))]</visible>
+				<visible>[Container.Content(movies) | Container.Content(sets) + String.IsEmpty(ListItem.Art(clearlogo)) + String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.Art.Clearlogo))] | [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes) + String.IsEmpty(ListItem.Art(tvshow.clearlogo) + String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.Art.Clearlogo))]</visible>
 				<visible>[String.IsEmpty(ListItem.Art(clearlogo)) + String.IsEmpty(ListItem.Art(tvshow.clearlogo)) + String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.Art.Clearlogo))]+ [String.StartsWith(ListItem.Title,e) | String.StartsWith(ListItem.Title,f) | String.StartsWith(ListItem.Title,g) | String.StartsWith(ListItem.Title,h)]</visible>
 			</control>
 			<control type="textbox">

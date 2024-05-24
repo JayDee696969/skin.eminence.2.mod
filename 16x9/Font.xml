@@ -350,7 +350,7 @@
         </font>		
         <font>
             <name>Font-Header</name>
-            <filename>Roboto-Black.ttf</filename>
+            <filename>RINGM___.ttf</filename>
             <size>75</size>
         </font>
         <font>
@@ -365,7 +365,7 @@
         </font>
         <font>
             <name>Font-HomeMenu</name>
-            <filename>Roboto-Regular.ttf</filename>
+            <filename>RINGM___.ttf</filename>
             <size>28</size>
         </font>
         <font>
@@ -683,5 +683,224 @@
 			<size>48</size>
 		</font>			
     </fontset>
-
+	<fontset id="skin.estouchy Default">
+	<!-- Normal Fonts -->
+		<font>
+			<name>font13</name>
+			<filename>skin.estouchy/NotoSans-Regular.ttf</filename>
+			<size>24.0</size>
+		</font>
+		<font>
+			<name>font16</name>
+			<filename>skin.estouchy/NotoSans-Regular.ttf</filename>
+			<size>16.0</size>
+		</font>
+		<font>
+			<name>font20</name>
+			<filename>skin.estouchy/NotoSans-Regular.ttf</filename>
+			<size>20.0</size>
+		</font>
+		<font>
+			<name>font22</name>
+			<filename>skin.estouchy/NotoSans-Regular.ttf</filename>
+			<size>22.0</size>
+		</font>
+		<font>
+			<name>font24</name>
+			<filename>skin.estouchy/NotoSans-Regular.ttf</filename>
+			<size>24.0</size>
+		</font>
+		<font>
+			<name>font25</name>
+			<filename>skin.estouchy/NotoSans-Regular.ttf</filename>
+			<size>25.0</size>
+		</font>
+		<font>
+			<name>font30</name>
+			<filename>skin.estouchy/NotoSans-Regular.ttf</filename>
+			<size>30.0</size>
+		</font>
+		<font>
+			<name>font40</name>
+			<filename>skin.estouchy/NotoSans-Regular.ttf</filename>
+			<size>40.0</size>
+		</font>
+	<!-- Title Fonts -->
+		<font>
+			<name>font11_title</name>
+			<filename>skin.estouchy/NotoSans-Regular.ttf</filename>
+			<size>11.0</size>
+			<style>bold</style>
+		</font>
+		<font>
+			<name>font14_title</name>
+			<filename>skin.estouchy/NotoSans-Regular.ttf</filename>
+			<size>14.0</size>
+			<style>bold</style>
+		</font>
+		<font>
+			<name>font18_title</name>
+			<filename>skin.estouchy/NotoSans-Regular.ttf</filename>
+			<size>18.0</size>
+			<style>bold</style>
+		</font>
+		<font>
+			<name>font20_title</name>
+			<filename>skin.estouchy/NotoSans-Regular.ttf</filename>
+			<size>20.0</size>
+			<style>bold</style>
+		</font>
+		<font>
+			<name>font24_title</name>
+			<filename>skin.estouchy/NotoSans-Regular.ttf</filename>
+			<size>24.0</size>
+			<style>bold</style>
+		</font>
+		<font>
+			<name>font28_title</name>
+			<filename>skin.estouchy/NotoSans-Regular.ttf</filename>
+			<size>28.0</size>
+			<style>bold</style>
+		</font>
+		<font>
+			<name>font30_title</name>
+			<filename>skin.estouchy/NotoSans-Regular.ttf</filename>
+			<size>30.0</size>
+			<style>bold</style>
+		</font>
+		<font>
+			<name>font35_title</name>
+			<filename>skin.estouchy/NotoSans-Regular.ttf</filename>
+			<size>35.0</size>
+			<style>bold</style>
+		</font>
+		<font>
+			<name>font70_title</name>
+			<filename>skin.estouchy/NotoSans-Regular.ttf</filename>
+			<size>70.0</size>
+			<style>lighten</style>
+		</font>
+		<font>
+			<name>font80_title</name>
+			<filename>skin.estouchy/NotoSans-Regular.ttf</filename>
+			<size>80.0</size>
+			<style>bold</style>
+		</font>
+		<font>
+			<name>font20_narrow</name>
+			<filename>skin.estouchy/NotoSans-Regular.ttf</filename>
+			<size>20.0</size>
+			<linespacing>0.80</linespacing>
+		</font>
+	</fontset>
+	<fontset id="skin.estouchy Arial">
+	<!-- Normal Fonts -->
+		<font>
+			<name>font13</name>
+			<filename>skin.estouchy/Arial.ttf</filename>
+			<size>24.0</size>
+		</font>
+		<font>
+			<name>font16</name>
+			<filename>skin.estouchy/Arial.ttf</filename>
+			<size>16.0</size>
+		</font>
+		<font>
+			<name>font20</name>
+			<filename>skin.estouchy/Arial.ttf</filename>
+			<size>20.0</size>
+		</font>
+		<font>
+			<name>font22</name>
+			<filename>skin.estouchy/Arial.ttf</filename>
+			<size>22.0</size>
+		</font>
+		<font>
+			<name>font24</name>
+			<filename>skin.estouchy/Arial.ttf</filename>
+			<size>24.0</size>
+		</font>
+		<font>
+			<name>font25</name>
+			<filename>skin.estouchy/Arial.ttf</filename>
+			<size>25.0</size>
+		</font>
+		<font>
+			<name>font30</name>
+			<filename>skin.estouchy/Arial.ttf</filename>
+			<size>30.0</size>
+		</font>
+		<font>
+			<name>font40</name>
+			<filename>skin.estouchy/Arial.ttf</filename>
+			<size>40.0</size>
+		</font>
+	<!-- Title Fonts -->
+		<font>
+			<name>font11_title</name>
+			<filename>skin.estouchy/Arial.ttf</filename>
+			<size>11.0</size>
+			<style>bold</style>
+		</font>
+		<font>
+			<name>font14_title</name>
+			<filename>skin.estouchy/Arial.ttf</filename>
+			<size>14.0</size>
+			<style>bold</style>
+		</font>
+		<font>
+			<name>font18_title</name>
+			<filename>skin.estouchy/Arial.ttf</filename>
+			<size>18.0</size>
+			<style>bold</style>
+		</font>
+		<font>
+			<name>font20_title</name>
+			<filename>skin.estouchy/Arial.ttf</filename>
+			<size>20.0</size>
+			<style>bold</style>
+		</font>
+		<font>
+			<name>font24_title</name>
+			<filename>skin.estouchy/Arial.ttf</filename>
+			<size>24.0</size>
+			<style>bold</style>
+		</font>
+		<font>
+			<name>font28_title</name>
+			<filename>skin.estouchy/Arial.ttf</filename>
+			<size>28.0</size>
+			<style>bold</style>
+		</font>
+		<font>
+			<name>font30_title</name>
+			<filename>skin.estouchy/Arial.ttf</filename>
+			<size>30.0</size>
+			<style>bold</style>
+		</font>
+		<font>
+			<name>font35_title</name>
+			<filename>skin.estouchy/Arial.ttf</filename>
+			<size>35.0</size>
+			<style>bold</style>
+		</font>
+		<font>
+			<name>font70_title</name>
+			<filename>skin.estouchy/Arial.ttf</filename>
+			<size>70.0</size>
+			<style>lighten</style>
+		</font>
+		<font>
+			<name>font80_title</name>
+			<filename>skin.estouchy/Arial.ttf</filename>
+			<size>80.0</size>
+			<style>bold</style>
+		</font>
+		<font>
+			<name>font20_narrow</name>
+			<filename>skin.estouchy/Arial.ttf</filename>
+			<size>20.0</size>
+			<linespacing>0.91</linespacing>
+		</font>
+	</fontset>
 </fonts>

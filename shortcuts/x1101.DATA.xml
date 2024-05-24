@@ -15,7 +15,7 @@
     <shortcut>
         <label>31101</label>
         <label2>Movie Hub Shortcut</label2>
-        <action>ActivateWindow(Videos,special://skin/extras/playlists/RecentlyPlayedMovies.xsp,return)</action>
+        <action>ActivateWindow(Videos,special://skin/extras/playlists/RecentMovies.xsp,return)</action>
         <icon>special://skin/extras/icons/recent.png</icon>
     </shortcut>
     

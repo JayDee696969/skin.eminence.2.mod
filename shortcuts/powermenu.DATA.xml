@@ -9,7 +9,7 @@
     <shortcut>
         <label2>31508</label2>
         <label>13012</label>
-        <action>XBMC.Quit()</action>
+        <action>Quit()</action>
         <visible>System.ShowExitButton</visible>
         <icon>special://skin/extras/icons/power.png</icon>
     </shortcut>

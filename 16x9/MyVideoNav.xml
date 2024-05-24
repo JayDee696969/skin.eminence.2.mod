@@ -193,30 +193,29 @@
 			<visible>Skin.HasSetting(rotatingthumbs)</visible>
 		</control>
 
-        <!-- <control type="multiimage" id="4440"> -->
-            <!-- <top>-2000</top> -->
-            <!-- <left>0</left> -->
-            <!-- <width>1351</width> -->
-            <!-- <height>760</height> -->
-            <!-- <randomize>true</randomize> -->
-            <!-- <loop>yes</loop> -->
-            <!-- <imagepath background="true">$INFO[ListItem.Path,,extrafanart/]</imagepath> -->
-            <!-- <aspectratio>scale</aspectratio> -->
-            <!-- <fadetime>300</fadetime> -->
-            <!-- <include condition="String.IsEmpty(Skin.String(RotationLimit))">RotationLimit1</include> -->
-            <!-- <include condition="String.IsEqual(Skin.String(RotationLimit),1)">RotationLimit1</include> -->
-            <!-- <include condition="String.IsEqual(Skin.String(RotationLimit),2)">RotationLimit2</include> -->
-            <!-- <include condition="String.IsEqual(Skin.String(RotationLimit),3)">RotationLimit3</include> -->
-            <!-- <include condition="String.IsEqual(Skin.String(RotationLimit),4)">RotationLimit4</include> -->
-            <!-- <include condition="String.IsEqual(Skin.String(RotationLimit),5)">RotationLimit5</include> -->
-            <!-- <include condition="String.IsEqual(Skin.String(RotationLimit),6)">RotationLimit6</include> -->
-            <!-- <include condition="String.IsEqual(Skin.String(RotationLimit),7)">RotationLimit7</include> -->
-            <!-- <include condition="String.IsEqual(Skin.String(RotationLimit),8)">RotationLimit8</include> -->
-            <!-- <include condition="String.IsEqual(Skin.String(RotationLimit),9)">RotationLimit9</include> -->
-            <!-- <include condition="String.IsEqual(Skin.String(RotationLimit),10)">RotationLimit10</include> -->
-            <!-- <include condition="String.IsEqual(Skin.String(RotationLimit),11)">RotationLimit11</include> -->
-            <!-- <include condition="String.IsEqual(Skin.String(RotationLimit),12)">RotationLimit12</include> -->
-        <!-- </control> -->
+        <control type="multiimage" id="4440">
+            <top>-2000</top>
+            <left>0</left>
+            <width>1351</width>
+            <height>760</height>
+            <randomize>true</randomize>
+            <loop>yes</loop>
+            <aspectratio>scale</aspectratio>
+            <fadetime>300</fadetime>
+            <include condition="String.IsEmpty(Skin.String(RotationLimit))">RotationLimit1</include>
+            <include condition="String.IsEqual(Skin.String(RotationLimit),1)">RotationLimit1</include>
+            <include condition="String.IsEqual(Skin.String(RotationLimit),2)">RotationLimit2</include>
+            <include condition="String.IsEqual(Skin.String(RotationLimit),3)">RotationLimit3</include>
+            <include condition="String.IsEqual(Skin.String(RotationLimit),4)">RotationLimit4</include>
+            <include condition="String.IsEqual(Skin.String(RotationLimit),5)">RotationLimit5</include>
+            <include condition="String.IsEqual(Skin.String(RotationLimit),6)">RotationLimit6</include>
+            <include condition="String.IsEqual(Skin.String(RotationLimit),7)">RotationLimit7</include>
+            <include condition="String.IsEqual(Skin.String(RotationLimit),8)">RotationLimit8</include>
+            <include condition="String.IsEqual(Skin.String(RotationLimit),9)">RotationLimit9</include>
+            <include condition="String.IsEqual(Skin.String(RotationLimit),10)">RotationLimit10</include>
+            <include condition="String.IsEqual(Skin.String(RotationLimit),11)">RotationLimit11</include>
+            <include condition="String.IsEqual(Skin.String(RotationLimit),12)">RotationLimit12</include>
+        </control>
 		
 		<control type="fadelabel" id="4430">
 			<top>-1000</top>

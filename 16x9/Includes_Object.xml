@@ -869,10 +869,10 @@
         </control>         
         <!--Button Search-->
         <control type="button" id="388">
-            <include>Defs_OptionButton2</include>
-            <label>137</label>
-			<onclick condition="System.hasAddon(script.globalsearch)">RunScript(script.globalsearch)</onclick>
-			<visible>System.hasAddon(script.globalsearch) + !String.StartsWith(Container.FolderPath,plugin://plugin.video) + !Window.IsVisible(MyMusicNav.xml)</visible>
+                    <include>Defs_OptionButton2</include>
+                    <label>137</label>
+		 <onclick>RunScript(script.skin.helper.service,action=VIDEOSEARCH)</onclick>
+		<visible>!String.StartsWith(Container.FolderPath,plugin://plugin.video) + !Window.IsVisible(MyMusicNav.xml)</visible>
         </control>
     </include>
 
